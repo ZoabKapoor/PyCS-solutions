@@ -1,0 +1,7 @@
+To determine the type of a variable, we will create that variable and then print its type:
+import turtle
+adam = turtle.Turtle()
+print type(adam)
+This will return <class ‘Turtle’>, so adam is of type ‘Turtle’
+
+

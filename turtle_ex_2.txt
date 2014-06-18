@@ -1,0 +1,6 @@
+
+Answers for this question may vary. An example answer:
+
+Attributes of my cellphone: color, shape, carrier, model, owner
+Methods of my cellphone: phone.makeCall(), phone.sendMessage(), phone.turnOn(), phone.playMusic()
+

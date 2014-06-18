@@ -1,0 +1,22 @@
+import turtle		#imports the turtle library
+wn = turtle.Screen()	#creates the screen
+max = turtle.Turtle()	#creates the turtle and names it max
+max.shape('turtle')	#makes max look like a turtle
+max.up()			#turtle begins NOT drawing as it moves
+
+angle = 30 		#one twelfth of the full 360 degrees
+radius = 100		#defines the distance from center to line
+extraDistance = 15	#defines the distance of the second line
+
+for hour in range(12):	#for each of the 12 hours of a clock
+    max.forward(radius)	#moves forward a large ammount
+    max.down()			#puts down the tail
+    max.forward(extraDistance)	#draws the line (len: extraDist)
+    max.up()			#puts the tail up
+    max.forward(extraDistance)	#moves forward again
+    max.stamp()			#stamps the turtle logo
+    max.goto(0,0)		#moves turtle to original position
+    max.left(angle)		#increments turtle’s angle
+max.stamp()			#stamps turtle in center at the end
+
+
