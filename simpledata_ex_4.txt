@@ -1,0 +1,12 @@
+# Problem 4
+# My Name: Zoab
+
+starting_number = int ( input("What is the number of the day that you started your holiday?") )
+stay_length = int ( input("How many days will you be on holiday for?") )
+
+return_date = starting_number + stay_length
+
+return_day = return_date % 7
+
+print(return_day)
+
