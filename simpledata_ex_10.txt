@@ -1,0 +1,8 @@
+distance = raw_input("How far did the car go? ")
+distance = float(distance)
+fuel     = raw_input("How much fuel did the car use? ")
+fuel     = float(fuel)
+
+mileage  = distance/fuel
+print "The fuel efficiency of the car is " + str(mileage) + " miles per gallon."
+

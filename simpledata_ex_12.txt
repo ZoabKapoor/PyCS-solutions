@@ -1,0 +1,14 @@
+
+In order to convert from degrees fahrenheit to degrees celsius, we must first know the mathematical relationship between these values.
+
+If the temperature is X (measured in deg F), then the temperature, Y (measured in deg F), would be:
+					Y = (5/9)*(X - 32)
+
+Therefore, our function could take the following form:
+
+deg_fahrenheit = float( raw_input(“Temperature in fahrenheit? ”))
+#we will convert to a float to avoid rounding
+deg_celsius = float(degrees_fahrenheit - 32)*5/9
+print “The temperature is “ + str(deg_celsius) + “degrees celsius.”
+
+
